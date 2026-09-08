@@ -9,6 +9,8 @@ cask "nool-notch" do
 
   depends_on arch: :arm64
   depends_on macos: :sonoma
+  depends_on formula: "gh"
+  depends_on formula: "glab"
 
   app "NotchApp.app"
 
