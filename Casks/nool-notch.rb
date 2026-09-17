@@ -1,6 +1,6 @@
 cask "nool-notch" do
-  version "0.4.0"
-  sha256 "0ba6b610d1c7ec62a05df5d3492d21945f2b5f3f119d637de8d70578faec1db5"
+  version "0.5.0"
+  sha256 "885b0f7ab115d262b1f11710573a333a14f108fa1cae5adebad46bcafd4288e4"
 
   url "https://github.com/nail00749/nool_notch/releases/download/v#{version}/NoolNotch-v#{version}-arm64.zip"
   name "Nool Notch"
