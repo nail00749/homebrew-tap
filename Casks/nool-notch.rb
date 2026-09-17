@@ -8,9 +8,9 @@ cask "nool-notch" do
   homepage "https://github.com/nail00749/nool_notch"
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
   depends_on formula: "gh"
   depends_on formula: "glab"
+  depends_on macos: :sonoma
 
   app "NotchApp.app"
 
